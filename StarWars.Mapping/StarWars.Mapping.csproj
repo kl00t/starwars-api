@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FastEndpoints" Version="5.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StarWars.Client\StarWars.Client.csproj" />
+    <ProjectReference Include="..\StarWars.Contracts\StarWars.Contracts.csproj" />
+    <ProjectReference Include="..\StarWars.Domain\StarWars.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

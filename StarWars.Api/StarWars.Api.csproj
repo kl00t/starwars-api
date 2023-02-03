@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FastEndpoints" Version="5.7.0" />
+    <PackageReference Include="FastEndpoints.Security" Version="5.7.0" />
+    <PackageReference Include="FastEndpoints.Swagger" Version="5.7.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StarWars.Client\StarWars.Client.csproj" />
+    <ProjectReference Include="..\StarWars.Contracts\StarWars.Contracts.csproj" />
+    <ProjectReference Include="..\StarWars.Domain\StarWars.Domain.csproj" />
+    <ProjectReference Include="..\StarWars.Mapping\StarWars.Mapping.csproj" />
+    <ProjectReference Include="..\StarWars.Repository\StarWars.Repository.csproj" />
+    <ProjectReference Include="..\StarWars.Services\StarWars.Services.csproj" />
+  </ItemGroup>
+
+</Project>

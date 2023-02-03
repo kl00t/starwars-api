@@ -1,0 +1,19 @@
+﻿{
+  "profiles": {
+    "StarWars.Api": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7116;http://localhost:5116",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "StarWarsApiOptions__BaseAddress": "https://swapi.dev/api/",
+        "StarWarsApiOptions__ClientName": "starwarsapi",
+        "TokenSigningKey": "6FB404FF-4673-4862-B838-A11A86A02858",
+        "Username": "scott_vaughan@hotmail.com",
+        "Password": "password"
+      }
+    }
+  }
+}
